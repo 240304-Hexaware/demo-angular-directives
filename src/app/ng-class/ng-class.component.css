@@ -1,0 +1,23 @@
+.class1 {
+    color: red;
+    background-color: blue;
+    font-style: bold;
+}
+
+.class2 {
+    color: blue;
+    background-color: orange;
+    font-style: italic;
+}
+
+.redText {
+    color: red;
+}
+
+.blueBackground {
+    background-color: blue;
+}
+
+.italix {
+    font-style: italic
+}
