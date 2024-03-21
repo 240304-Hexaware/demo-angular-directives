@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let character of characters">
+        <td>{{character.firstName | titlecase}}</td>
+        <td>{{character.lastName | titlecase}}</td>
+        <td>{{character.age}}</td>
+    </tr>
+</table>

@@ -1,0 +1,11 @@
+Who would you like to inspect?
+<br>
+<input type="text" (input)="updateChoice($event)">
+
+<div [ngSwitch]="this.choice">
+    <p *ngSwitchCase="'Kyle'">{{characters[0].firstName}} {{characters[0].lastName}} is {{characters[0].age}}.</p>
+    <p *ngSwitchCase="'Luke'">{{characters[1].firstName}} {{characters[1].lastName}} is {{characters[1].age}}.</p>
+    <p *ngSwitchCase="'Harry'">{{characters[2].firstName}} {{characters[2].lastName}} is {{characters[2].age}}.</p>
+    <p *ngSwitchCase="'Hercules'">{{characters[3].firstName}} {{characters[3].lastName}} is {{characters[3].age}}.</p>
+    <p *ngSwitchDefault>Choose one of our characters to inspect their details!</p>
+</div>
